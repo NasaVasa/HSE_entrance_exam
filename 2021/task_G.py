@@ -1,0 +1,6 @@
+r = open('input.txt', 'r')
+w = open('output.txt', 'w')
+a=list(map(int,r.read().split()))
+w.write(str(sum(a)))
+r.close()
+w.close()
